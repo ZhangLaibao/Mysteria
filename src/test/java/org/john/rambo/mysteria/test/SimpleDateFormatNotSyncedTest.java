@@ -1,4 +1,4 @@
-package org.john.rambo.mysteria;
+package org.john.rambo.mysteria.test;
 
 import lombok.extern.slf4j.Slf4j;
 import org.john.rambo.mysteria.service.SimpleDateFormatNotSynced;
@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 
 @Slf4j
 @SpringBootTest
-public class MysteriaApplicationTests {
+public class SimpleDateFormatNotSyncedTest {
 
     private final ExecutorService executorService = Executors.newFixedThreadPool(100);
 
@@ -34,6 +34,4 @@ public class MysteriaApplicationTests {
             });
         }
     }
-
-
 }
