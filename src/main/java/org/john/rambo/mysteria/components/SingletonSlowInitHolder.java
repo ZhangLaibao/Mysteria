@@ -1,5 +1,8 @@
 package org.john.rambo.mysteria.components;
 
+/**
+ * Singleton holder for something expensive to initialize
+ */
 public class SingletonSlowInitHolder {
 
     private static volatile SlowInit SLOW_INIT;

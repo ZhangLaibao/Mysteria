@@ -6,6 +6,9 @@ public class SlowInit {
 
     private boolean inited;
 
+    /**
+     * assume that it will take 1 second for this class to initialize
+     */
     public void init() {
         try {
             TimeUnit.MILLISECONDS.sleep(1000L);
