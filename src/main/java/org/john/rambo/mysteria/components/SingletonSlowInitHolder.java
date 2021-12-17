@@ -1,9 +1,5 @@
 package org.john.rambo.mysteria.components;
 
-/**
- * @author PengXianglong
- * @date 2021-12-17 15:04
- */
 public class SingletonSlowInitHolder {
 
     private static volatile SlowInit SLOW_INIT;

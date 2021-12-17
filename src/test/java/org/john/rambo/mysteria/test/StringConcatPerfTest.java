@@ -3,10 +3,6 @@ package org.john.rambo.mysteria.test;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
-/**
- * @author PengXianglong
- * @date 2021-12-17 15:28
- */
 @Slf4j
 public class StringConcatPerfTest {
 

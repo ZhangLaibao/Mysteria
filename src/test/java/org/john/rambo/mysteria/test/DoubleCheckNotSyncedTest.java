@@ -9,10 +9,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author PengXianglong
- * @date 2021-12-17 15:28
- */
 @Slf4j
 public class DoubleCheckNotSyncedTest {
 

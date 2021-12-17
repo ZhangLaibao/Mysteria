@@ -2,10 +2,6 @@ package org.john.rambo.mysteria.components;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author PengXianglong
- * @date 2021-12-17 15:04
- */
 public class SlowInit {
 
     private boolean inited;
